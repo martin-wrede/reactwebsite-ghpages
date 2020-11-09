@@ -2,7 +2,7 @@ import React from  'react';
 
 import '../App.css';
 import BilderZeigen from "./image-slider";
-
+import BilderZeigen2 from "./image-wrapper";
 
 
 export function Kooperationen () {
@@ -28,9 +28,10 @@ Aktueller Projekt-Raum: Schillerpalais, Berlin Neukölln<br />
 Link: <a href="http://www.top-ev.de/" target="_blank" rel="noopener noreferrer">www.top-ev.de</a></p>
         </div>
         <div id="sidebar" className="content_sub" >
-            <div className="clear"></div>
+        <BilderZeigen2  value="Kooperationen" />
+        <div className="clear"></div>
 
+                </div>
         </div>
-</div>
 
 ) }

@@ -31,7 +31,7 @@ return (
         </div>
         <div id="sidebar" className="content_sub" >
             <div className="clear">
-            <BilderZeigen   collection = "huBerlin" />
+            <BilderZeigen   collection = "huberlin" />
             </div>
 
         </div>

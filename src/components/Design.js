@@ -16,7 +16,7 @@ return (
             <h2>Erscheinungsbild</h2>
             <p>
             Logo Gestaltung<br />
-            Falblatt<br />
+            Faltblatt<br />
             Plakat<br />
             Broschüren<br />
             Kataloge
@@ -24,7 +24,7 @@ return (
         </div>
         <div id="sidebar" className="content_sub" >
         <BilderZeigen2  value="Design" />
-            <div className="clear">
+        <div className="clear">
 
             </div>
 

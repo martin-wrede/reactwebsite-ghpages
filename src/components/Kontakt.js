@@ -2,6 +2,7 @@ import React from  'react';
 
 import '../App.css';
 import BilderZeigen from "./image-slider";
+import BilderZeigen2 from "./image-wrapper";
 
 
 
@@ -49,6 +50,7 @@ Sämtliche Texte, Bilder, Filme und interaktive Arbeiten unterliegen dem interna
 <p class="p1"><span class="s1">Sofern Sie per E-Mail mit uns in Kontakt treten, werden die dabei von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten ist zur Bearbeitung und Beantwortung Ihre Anfrage erforderlich &#8211; ohne deren Bereitstellung können wir Ihre Anfrage nicht oder allenfalls eingeschränkt beantworten. Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. b) DSGVO. Ihre Daten werden gelöscht, sofern Ihre Anfrage abschließend beantwortet worden ist und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen, wie bspw. bei einer sich etwaig anschließenden Vertragsabwicklung.</span></p>
         </div>
         <div id="sidebar" className="content_sub" >
+          <BilderZeigen2  value="Kontakt" />
             <div className="clear"></div>
 
         </div>

@@ -1,9 +1,7 @@
 import React from  'react';
 import '../App.css';
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
-import Route from 'react-router-dom/Route';
-import BilderZeigen from "./image-slider";
 
+import BilderZeigen2 from "./image-wrapper";
 
 export function Projekte () {
 
@@ -16,12 +14,16 @@ return (
 Berkenheger<br />
 Diabetes Praxis, Berlin<br />
 DM Drogerie Markt<br />EXPO 2000<br />
-<a href="http://targetx.de/felix1/">felix1</a><br />
+<a href="felix1/">felix1</a><br />
 GIU<br /><
-a href="http://targetx.de/hist-museum-bremerhaven/">Historisches Museum Bremerhaven</a><br />
-Historisches Museum Saar<br /><a href="http://targetx.de/hu-berlin/">Humboldt Universität Berlin</a><br />J.J. Darboven<br />Kulturamt Bremen<br />myBet<br />NGBK Berlin<br /><a href="http://targetx.de/passus/">passus</a><br />Universität Karlsruhe / Fachbereich Informatik<br />Yello Strom<br />Ziener<br />ZKM / Zentrum für Kunst und Medientechnologie Karlsruhe</p>
+a href="histmuseumbremerhaven/">Historisches Museum Bremerhaven</a><br />
+Historisches Museum Saar<br /><a href="huberlin/">Humboldt Universität Berlin</a><br />
+J.J. Darboven<br />Kulturamt Bremen<br />myBet<br />NGBK Berlin<br />
+<a href="passus/">passus</a><br />Universität Karlsruhe / Fachbereich Informatik<br />
+Yello Strom<br />Ziener<br />ZKM / Zentrum für Kunst und Medientechnologie Karlsruhe</p>
         </div>
         <div id="sidebar" className="content_sub" >
+        <BilderZeigen2  value="Projekte" />
             <div className="clear"></div>
 
         </div>
