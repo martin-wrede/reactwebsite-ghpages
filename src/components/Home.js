@@ -1,8 +1,9 @@
 import React from  'react';
 
 import '../App.css';
-import BilderZeigen from "./image-slider";
 
+import BilderZeigen from "./image-slider";
+import BilderZeigen2 from "./image-wrapper";
 
 
 export function Home () {

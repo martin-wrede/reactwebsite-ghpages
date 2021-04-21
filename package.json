@@ -1,7 +1,7 @@
 {
   "name": "reactwebsite",
   "version": "0.1.0",
-  "homepage": "https://fritzlang67.github.com/reactwebsite-ghpages/",
+  "homepage": "https://fritzlang67.github.io/reactwebsite-ghpages/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
