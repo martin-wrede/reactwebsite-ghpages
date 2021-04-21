@@ -21,7 +21,7 @@ import {Passus}  from './components/Passus';
   <Router>
   <div className="App" >
         <header  id="header">
-            <div className="logo-container" className="logo">
+            <div className="logo-container logo">
             <NavLink to="/" exact activeStyle={
               { color:'#ff3300' }
             }><a href="index.html"><Icon /></a></NavLink>
