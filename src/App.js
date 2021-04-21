@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router,  NavLink } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import { ReactComponent as Icon} from './targetx-logo-outl.svg';
 import {Home}  from './components/Home';
