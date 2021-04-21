@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React  from "react";
 
 const image = {
-  Design: "/media/Interface-Design_E-Learning.jpg",
-  Projekte: "/media/Ausstellung_Erscheinungsbild.jpg",
+  Design:"https://i.pinimg.com/474x/31/a9/36/31a93614e46f83db6c15cb3d69730630.jpg",
+//  Design: "/media/Interface-Design_E-Learning.jpg",
+  Projekte: "./media/Ausstellung_Erscheinungsbild.jpg",
   Kooperationen: "/media/Veranstaltungs-Praesentation.jpg",
-  Kontakt: "/media/Info-Grafik.jpg",
+  Kontakt: "media/Info-Grafik.jpg",
 };
 
 class BilderZeigen2 extends React.Component {
@@ -17,8 +18,8 @@ class BilderZeigen2 extends React.Component {
 
   componentDidMount() {
     const img = new Image();
-    //    img.src= image.design
-    img.src = image[ this.value];
+
+    img.src = image[this.value];
     img.onload = function () {
       document.querySelector(".imagewrapper-quer").style["background-image"] =
         //    = `url('${img.src}')`
@@ -29,8 +30,9 @@ class BilderZeigen2 extends React.Component {
   render() {
     return (
       <div>
-        {this.value}
+
         <div className="imagewrapper-quer"></div>
+        {this.value}
       </div>
     );
   }
