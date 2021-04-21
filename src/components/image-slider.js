@@ -11,36 +11,36 @@ let  items = [];
 const  archiv = [
             [
               {id:1 , text:'Interface-Design', url: 'media/Interface-Design_E-Learning.jpg'},
-              {id:2 , text:'Erscheinungsbild', url: 'media/Ausstellung_Erscheinungsbild.jpg'},
-              {id:3 , text:'Plakat Kulturveranstaltung', url: 'media/Plakat_Kulturveranstaltung.jpg'},
-              {id:4 , text:'Veranstaltungs-Praesentation', url: 'media/Veranstaltungs-Praesentation.jpg'},
-              {id:5 , text:'Info-Grafik', url: 'media/Info-Grafik.jpg'}
+              {id:2 , text:'Erscheinungsbild', url: './media/Ausstellung_Erscheinungsbild.jpg'},
+              {id:3 , text:'Plakat Kulturveranstaltung', url: './media/Plakat_Kulturveranstaltung.jpg'},
+              {id:4 , text:'Veranstaltungs-Praesentation', url: './media/Veranstaltungs-Praesentation.jpg'},
+              {id:5 , text:'Info-Grafik', url: './media/Info-Grafik.jpg'}
             ],
             [
-              {id:1 , text:'Info-Grafik', url: 'media/felix1_steuerberater_INFOGRAFIK_WEB.png'},
-              {id:2 , text:'UI-Design', url: 'media/felix1_steuerberater_katalog_WEB.png'},
-              {id:3 , text:'Fehlerseite Design', url: 'media/felix1_steuerberater_Steuermonster_WEB.png'}
+              {id:1 , text:'Info-Grafik', url: './media/felix1_steuerberater_INFOGRAFIK_WEB.png'},
+              {id:2 , text:'UI-Design', url: './media/felix1_steuerberater_katalog_WEB.png'},
+              {id:3 , text:'Fehlerseite Design', url: './media/felix1_steuerberater_Steuermonster_WEB.png'}
           ],
           [
-            {id:1 , text:'Lakonia: Außenansicht', url: 'media/LAKONIA-Ausstellung-01.jpg'},
-            {id:2 , text:'Lakonia: Innenansicht', url: 'media/LAKONIA-Ausstellung-02.jpg'},
-            {id:3 , text:'Lakonia: Falblatt', url: 'media/LAKONIA-01-Faltblatt.jpg'},
-            {id:4 , text:'Lakonia: Buchseiten', url: 'media/LAKONIA-Buch-05.jpg'},
-            {id:5 , text:'Lakonia: Buchseiten', url: 'media/LAKONIA-Buch-07.jpg'}
+            {id:1 , text:'Lakonia: Außenansicht', url: './media/LAKONIA-Ausstellung-01.jpg'},
+            {id:2 , text:'Lakonia: Innenansicht', url: './media/LAKONIA-Ausstellung-02.jpg'},
+            {id:3 , text:'Lakonia: Falblatt', url: './media/LAKONIA-01-Faltblatt.jpg'},
+            {id:4 , text:'Lakonia: Buchseiten', url: './media/LAKONIA-Buch-05.jpg'},
+            {id:5 , text:'Lakonia: Buchseiten', url: './media/LAKONIA-Buch-07.jpg'}
           ],
             [
 
-                  {id:1 , text:'Logo', url: 'media/pixtura-logo.png'},
-                  {id:2 , text:'Faltblatt', url: 'media/pixtura-faltblatt.jpg'},
-                  {id:3 , text:'Projekt-Website', url: 'media/hu_berlin_website.jpg'},
-                  {id:4 , text:'E-Learning Coach Frontend', url: 'media/hu_berlin_uebung02.jpg'},
-                  {id:5 , text:'E-Learning Coach Backend', url: 'media/hu_berlin_autoren.jpg'}
+                  {id:1 , text:'Logo', url: './media/pixtura-logo.png'},
+                  {id:2 , text:'Faltblatt', url: './media/pixtura-faltblatt.jpg'},
+                  {id:3 , text:'Projekt-Website', url: './media/hu_berlin_website.jpg'},
+                  {id:4 , text:'E-Learning Coach Frontend', url: './media/hu_berlin_uebung02.jpg'},
+                  {id:5 , text:'E-Learning Coach Backend', url: './media/hu_berlin_autoren.jpg'}
             ],
 
             [
-                    {id:1 , text:'Erscheinungsbild mit Logo', url: 'media/passus-logo-claim.jpg'},
-                    {id:2 , text:'Briefbogen, Visitenkarte', url: 'media/passus_set1000-detail.jpg'},
-                    {id:3 , text:'Visitenkarte', url: 'media/passus-logo-claim.jpg'}
+                    {id:1 , text:'Erscheinungsbild mit Logo', url: './media/passus-logo-claim.jpg'},
+                    {id:2 , text:'Briefbogen, Visitenkarte', url: './media/passus_set1000-detail.jpg'},
+                    {id:3 , text:'Visitenkarte', url: './media/passus-logo-claim.jpg'}
 
             ]
   ];
