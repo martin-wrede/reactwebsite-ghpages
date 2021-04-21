@@ -1,11 +1,13 @@
 import React  from "react";
 
 const image = {
-  Design:"https://i.pinimg.com/474x/31/a9/36/31a93614e46f83db6c15cb3d69730630.jpg",
-//  Design: "/media/Interface-Design_E-Learning.jpg",
-  Projekte: "../../public/media/Ausstellung_Erscheinungsbild.jpg",
-  Kooperationen: "./media/Veranstaltungs-Praesentation.jpg",
+
+  Design: "/media/Interface-Design_E-Learning.jpg",
+  Projekte: "/public/media/Ausstellung_Erscheinungsbild.jpg",
+  Kooperationen: "/media/Veranstaltungs-Praesentation.jpg",
   Kontakt: "/media/Info-Grafik.jpg",
+
+
 };
 
 class BilderZeigen2 extends React.Component {
@@ -21,19 +23,24 @@ class BilderZeigen2 extends React.Component {
 
     img.src = image[this.value];
     img.onload = function () {
-      document.querySelector(".imagewrapper-quer").style["background-image"] =
-      `url('${img.src}')`;
-          //    = `url('${img.src}')`
-      //     `url('${process.env.PUBLIC_URL + '/media/Info-Grafik.jpg'}')` ;
+       document.querySelector(".imagewrapper-quer").style["background-image"]
+        = `url('${img.src}')`
+
     };
   }
 
   render() {
     return (
       <div>
-
+      {/*
         <div className="imagewrapper-quer"></div>
-        {this.value}
+  {this.value}
+      */}
+
+     <img src={ process.env.PUBLIC_URL  + '/media/' + this.value +  '.jpg'}
+     width='100%'
+      alt={this.value} />
+
       </div>
     );
   }
