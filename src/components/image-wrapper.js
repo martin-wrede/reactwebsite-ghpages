@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 
 const image = {
- Design: "http://targetx.de/wp-content/themes/targetx-responsive/caroussel/Interface-Design_E-Learning.jpg",
- Projekte: "http://targetx.de/wp-content/themes/targetx-responsive/caroussel/Ausstellung_Erscheinungsbild.jpg",
-  Kooperationen: "media/Veranstaltungs-Praesentation.jpg",
-  Kontakt:"media/Info-Grafik.jpg"
+ Design: "media/Interface-Design_E-Learning.jpg",
+ Projekte: "media/Ausstellung_Erscheinungsbild.jpg",
+ Kooperationen: "media/Veranstaltungs-Praesentation.jpg",
+ Kontakt:"media/Info-Grafik.jpg"
 }
 
 class BilderZeigen2  extends React.Component{
