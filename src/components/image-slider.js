@@ -36,17 +36,17 @@ function BilderZeigen(props) {
       {
         id: 1,
         text: "Info-Grafik",
-        url: "/media/felix1_steuerberater_INFOGRAFIK_WEB.png",
+        url: "/media/felix1_steuerberater_INFOGRAFIK_WEB.jpg",
       },
       {
         id: 2,
         text: "UI-Design",
-        url: "/media/felix1_steuerberater_katalog_WEB.png",
+        url: "/media/felix1_steuerberater_katalog_WEB.jpg",
       },
       {
         id: 3,
         text: "Fehlerseite Design",
-        url: "/media/felix1_steuerberater_Steuermonster_WEB.png",
+        url: "/media/felix1_steuerberater_Steuermonster_WEB.jpg",
       },
     ],
     [
