@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Link, NavLink, Redirect } from 'react-router-dom';
+
 import Route from 'react-router-dom/Route';
+
 import { ReactComponent as Icon} from './targetx-logo-outl.svg';
 import {Home}  from './components/Home';
 import {Design}  from './components/Design';
@@ -87,7 +89,10 @@ import {Passus}  from './components/Passus';
         </nav>
         </header>
 
-        <Route path="/" exact strict  component={Home} />
+        <Route path="/" exact strict component={Home} />
+        <Redirect from="*" to="/"   />
+
+
         <Route path="/design"   component={Design} />
         <Route path="/projekte-gesamt"   component={Projekte} />
           <Route path="/felix1"   component={Felix1} />
@@ -96,6 +101,7 @@ import {Passus}  from './components/Passus';
        <Route path="/passus"   component={Passus} />
         <Route path="/kooperationen"   component={Kooperationen} />
         <Route path="/kontakt"   component={Kontakt} />
+
        </div>
       </Router>
 
