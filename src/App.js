@@ -15,13 +15,15 @@ import {HistMuseumBremerhaven}  from './components/HistMuseumBremerhaven';
 import {HuBerlin}  from './components/HuBerlin';
 import {Passus}  from './components/Passus';
 
- 
+const routerBaseName = process.env.PUBLIC_URL;
+
 
  class App extends Component {
   render() {
     return (
 
-  <Router>
+ 
+  <Router basename={routerBaseName}>
   <div className="App" >
         <header  id="header">
             <div className="logo-container logo">
